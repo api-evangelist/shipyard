@@ -64,5 +64,128 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Shipyard is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by heavybit, work-bench) and added to the network as a stub for full-pipeline profiling.
-- https://www.shipyard.build
+Shipyard provides managed, ephemeral development environments that spin up full-stack, isolated copies of applications for each pull request or feature branch. Integrated with CI/CD pipelines, it supports AI agents, DevOps teams, QA, and product teams, offering rapid testing, cost savings, and automated teardown. Now part of StackGen, Shipyard enables developers to test code changes safely without impacting production, accelerating delivery and reducing cloud spend.
+
+**Areas:** Company · Ephemeral Environments · CI/CD · DevOps · AI Agents
+
+## Shipyard on APIs.io
+
+Everything profiled for Shipyard is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/shipyard/](https://apis.io/providers/shipyard/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Shipyard API](https://apis.io/apis/shipyard/shipyard-api-2/) — Shipyard provides managed, ephemeral development environments via its API. Documentation is hosted at the developer portal.
+- [Shipyard API](https://apis.io/apis/shipyard/shipyard-api/) — Shipyard API as documented publicly: 33 operations. Contract generated from the documentation by API Evangelist (2026-10-29); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiV1EnvironmentAppUuidEnvVarsResponse](https://apis.io/schemas/shipyard/shipyard-get-api-v1-environment-app-uuid-env-vars-response/)
+- [GetApiV1EnvironmentResponse](https://apis.io/schemas/shipyard/shipyard-get-api-v1-environment-response/)
+- [PostApiV1EnvironmentAppUuidCancelResponse](https://apis.io/schemas/shipyard/shipyard-post-api-v1-environment-app-uuid-cancel-response/)
+- [PostApiV1EnvironmentAppUuidRebuildResponse](https://apis.io/schemas/shipyard/shipyard-post-api-v1-environment-app-uuid-rebuild-response/)
+- [PostApiV1EnvironmentAppUuidReviveResponse](https://apis.io/schemas/shipyard/shipyard-post-api-v1-environment-app-uuid-revive-response/)
+- [PostAppcdApiV1AuthPairedapikeyResponse](https://apis.io/schemas/shipyard/shipyard-post-appcd-api-v1-auth-pairedapikey-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Shipyard Context](https://apis.io/jsonld/shipyard/shipyard-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Shipyard API Rules](https://apis.io/rules/shipyard/shipyard-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Shipyard Authentication](https://apis.io/security/shipyard/shipyard-authentication/)
+- [Shipyard Domain Security](https://apis.io/security/shipyard/shipyard-domain-security/)
+- [Shipyard Trust Center](https://apis.io/security/shipyard/shipyard-trust-center/)
+- [Shipyard Vulnerability Disclosure](https://apis.io/security/shipyard/shipyard-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Shipyard Plans Pricing](https://apis.io/plans/shipyard/shipyard-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.shipyard.build)
+- [Documentation](https://docs.shipyard.build/)
+- [Getting started](https://docs.stackgen.com/docs/release-notes/aiden/2026/august/v2026-8-8)
+- [Pricing](https://shipyard.build/pricing)
+- [Support](https://shipyard.build/contact)
+- [Blog](https://shipyard.build/blog)
+- [Security](https://shipyard.build/security)
+- [Compliance](https://shipyard.build/security/)
+- [Terms of service](https://shipyard.build/terms)
+- [Privacy policy](https://shipyard.build/privacy)
+- [GitHub](https://github.com/jnl)
+
+## API Evangelist rating
+
+**Kin Score 59.6** — strong · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.9 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 88.9 |
+
+**Agent readiness 15.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 35.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/shipyard/](https://apis.io/providers/shipyard/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Shipyard: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/shipyard/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
